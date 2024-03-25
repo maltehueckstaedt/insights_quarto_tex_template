@@ -1,0 +1,14 @@
+title: Pretty_SV
+author: Malte Hückstädt
+version: 0.0.1
+contributes:
+  formats: 
+    pdf:
+      include-in-header: 
+       - "Pretty_SV.tex"
+      include-before-body:
+       - "pagestyle.tex"
+      toc: false
+      code-block-bg: light-primary
+      linkcolor: highlight
+      urlcolor: highlight

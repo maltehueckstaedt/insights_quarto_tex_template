@@ -1,11 +1,23 @@
 ---
-title: "Pretty PDFs with Quarto"
-format: PrettyPDF-pdf
+title: "Vom Arbeiterkind zum Doktor"
+subtitle: "Der Hürdenlauf auf dem Bildungsweg der Erststudierenden"
+author: 
+  - Eike Schröder
+  - Felix Süßenbach
+  - Malte Hückstädt
+  - Frank Kafka
+  - Guido Baudach
+  - Malte Hückstädt
+format: Pretty_SV-pdf
 ---
 
-## Quarto
+# ÜBER UNS
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+sdkfjdkfj
+
+## GEMEINSAM WIRKEN
+
+Wir sind die Gemeinschaft engagierter Menschen, Unternehmen und Organisationen, die das Bildungs- und Wissenschaftssystem wirksam und zukunftsgerichtet gestaltet. So tragen wir als Stifterverband dazu bei, die Innovationskraft der Gesellschaft zu stärken.
 
 ### Running Code
 
@@ -14,12 +26,3 @@ When you click the **Render** button a document will be generated that includes 
 ```{r}
 1 + 1
 ```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
