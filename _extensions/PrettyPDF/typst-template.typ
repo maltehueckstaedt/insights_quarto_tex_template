@@ -26,7 +26,7 @@
   )
   
   // Set the body font.
-  set text(10pt, font: "Ubuntu")
+  set text(10pt, font: "Brandon")
 
   // Configure headings.
   show heading.where(level: 1): set block(below: 0.8em)
@@ -51,7 +51,7 @@
     column-gutter: 2.5cm,
 
     // Title.
-    text(font: "Ubuntu", 20pt, weight: 800, upper(title)),
+    text(font: "Brandon", 20pt, weight: 800, upper(title)),
 
     // The logo in the sidebar.
     locate(loc => {
