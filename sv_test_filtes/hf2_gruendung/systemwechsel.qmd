@@ -1,0 +1,44 @@
+---
+title: "Zeit für einen Systemwechsel in der Gründungsförderung"
+subtitle: " "
+title-block-banner: false
+description: 'Andrea Frank, stellvertretende Generalsekretärin des Stifterverbandes, meint: Deutschland hat eine zu geringe Innovationsorientierung im Wissenschaftssystem. Das wird im internationalen Vergleich als ein massiver Nachteil für den Wirtschaftsstandort Deutschland diskutiert. Um Gründungskultur zu fördern, sollte künftig eher auf Spitze statt auf Breite gesetzt werden und mehr auf Köpfe statt Strukturen.'
+author: 
+  - Andrea Frank
+image:  "preview.png"
+editor_options: 
+  chunk_output_type: console
+---
+
+**Würde das unternehmerische Potenzial** in den bundesweiten Hochschulen besser genutzt, könnten pro Jahr mehr als 1.300 zusätzliche Start-ups in gegründet werden – so ein Ergebnis der Studie "Entrepreneurship Zeitgeist 2030" von McKinsey. Doch Deutschland tut sich schwer mit Science Entrepreneurship in den Hochschulen und Forschungseinrichtungen.
+
+Neue Förderlinien experimentieren mit anderen Herangehensweisen und leiten einen Paradigmenwechsel ein – der Leuchtturmwettbewerb "Start-up Factories" oder auch die DATI sind Beispiele dafür. Drei Dinge sind dabei neu, insbesondere für die Förderung einer Gründungskultur: 
+
++ mehr Fokus auf Spitzen- statt Breitenförderung
++ mehr unternehmerisches Denken und Handeln statt öffentlicher Verwaltung
++ mehr Fokus auf Gründungs-Ökosysteme, Netzwerke und Public-Private-Partnerships statt auf Hochschulentwicklung  
+
+Diese Veränderungen lassen die Wellen hochschlagen. Denn wir haben uns eingerichtet in einer Projektförderlandschaft, die Vielfalt und Breite schätzt, aber Fokussierung scheut.
+
+#### EXIST-Potentiale auslaufen zu lassen, ist folgerichtig
+
+**Während etablierte Förderprogramme** wie "EXIST-Potentiale" auslaufen, stellt sich die Frage: Wie kann eine Science-Entrepreneurship-Kultur an Hochschulen gestärkt werden – auch ohne Projektförderung. Der Widerstand gegen das Auslaufen der Programme ist groß. Ich finde es dagegen einen folgerichtigen Schritt und nicht überraschend. Seit vielen Jahren ist die Nachhaltigkeit der Förderung eine Fördervoraussetzung – nur so richtig ernst genommen wurde sie von den Ländern und den Hochschulen nicht. Denn die Folgeförderung war in der Regel nicht weit.
+
+**Aus meiner Sicht ist dieser Systemwechsel eine Chance.** In den Ländern muss jetzt darüber nachgedacht werden, in welchen Hochschulen und Regionen die Gründungsförderung mit welchem Ziel ausgebaut und gesichert werden soll und wo nicht. Denn auch wenn die Gründungsförderung in der Breite der Hochschullandschaft angekommen ist, zeigt der Gründungsradar 2022 des Stifterverbandes: Von rund 2.800 Gründungen basieren nur 40 Prozent auf Wissenschafts- oder Technologietransfer, lediglich rund 250 Gründungen stehen in Verbindung mit der Anmeldung von gewerblichen Schutzrechten. Beunruhigend ist vor allem auch der Rückgang der Gründungsrate in der Hoch- und Spitzentechnologie in Deutschland insgesamt: Hier sind wir nicht nur im Vergleich beispielsweise mit den USA abgeschlagen, sondern auch innerhalb Europas.
+
+:::{.body-column}
+![Andrea Frank](andrea_frank.jpg)
+:::
+
+#### Unternehmerisches Denken und Mut zur Spitzenförderung
+
+Es wird deutlich: Ein einfaches "Weiter so" reicht nicht mehr! So ließe sich Bestehendes und Neues klug verknüpfen:   
+
++ **Mehr Spitzen- statt Breitenförderung, mehr Profilbildung im Science Entrepreneurship:** Wir brauchen mehr Mut zu Spitzenförderung – nicht nur in der Forschung, sondern auch im Transfer. Dabei müssen wir eine Ausdifferenzierung von Hochschulen in ihren Gründungsaktivitäten zulassen und eine Profilbildung gezielt fördern. Starke Gründungsstandorte wie München, Aachen, Karlsruhe, Köln oder Dresden fokussieren immer mehr auf Ausgründungen aus exzellenter Forschung oder spezialisieren sich auf ausgewählte Technologie- oder Forschungsfelder. Andere Standorte konzentrieren sich auf eine frühe Sensibilisierung von Studierenden für Entrepreneurship; wieder andere wirken arbeitsteilig in regionalen Netzwerken. Solche Profilierungen brauchen unterschiedliche Förderimpulse und Entwicklungswege.  
+
++ **Mehr unternehmerisches Denken und Handeln statt öffentlicher Verwaltung:** In den letzten Jahren haben sich Hochschulen in der Gründungsförderung enorm entwickelt. Doch interne Strukturen in Hochschulen stoßen an ihre Grenzen, wenn es darum geht, neue Wege zu gehen oder Start-ups zu skalieren. Es braucht mehr Science Entrepreneurship, also die Fähigkeit zu unternehmerischem Denken und Handeln, Problemlösungs- und Gestaltungskompetenz sowie Freiräume für Experimente. Und das nicht nur bei angehenden und etablierten Gründerinnen und Gründern, sondern auch in den unterstützenden Strukturen und in der Wissenschaft. Hier ist die Politik gefragt, durch Experimentierklauseln Freiräume zu eröffnen. Ideenreicher könnten Hochschulen bei der Stärkung von unternehmerischen Vorbildern sein – hier gibt es keine institutionellen Grenzen. Die UNIPRENEURS-Initiative hat gezeigt, dass Professorinnen und Professoren großartige Vorbilder für Gründerpersönlichkeiten sein können. Sie auszuzeichnen und diese Leistung auch jenseits der etablierten Reputationssysteme von Wissenschaft anzuerkennen, ist für mich längst überfällig.
+
++ **Mehr Fokus auf Gründungs-Ökosysteme, Netzwerke und Public-private-Partnerships statt auf Hochschulentwicklung und Förderung von Strukturen:** Drei von vier Euro sind Drittmittel bei der Gründungsförderung an Hochschulen (Stifterverband/Gründungsradar) und 42 Prozent der Transferstellen an Hochschulen bzw. 52 Prozent an Universitäten sind durch Drittmittel finanziert (Stifterverband/Transferkompass). Wir kommen mit einer Projektförderung bei der Transfer- und Gründungskultur nicht weiter. Gleichzeitig ist davon auszugehen, dass öffentliche Ressourcen in den kommenden Jahren sinken. Einerseits sind die Länder und Hochschulen gefragt, Verstetigungen auszuhandeln. Andererseits braucht es neue Finanzierungsmodelle. Der Leuchtturmwettbewerb "Startup Factories" kann hier ein wichtiger Wegbereiter sein. Er hat das Potenzial, nicht nur Hochschulen zu aktivieren, sondern auch private Förderer und Unternehmen – und das passiert bereits jetzt, noch bevor die Konzeptphase überhaupt gestartet ist.
+
+**Für einen notwendigen Systemwechsel** sind also alle in der Pflicht: die Länder und die Hochschulen, die Unternehmen und andere private Förderer in den Regionen. Haben wir den Mut, Impulse wie den Leuchtturmwettbewerb zu nutzen und in der Gründungsförderung neue Wege zu gehen für mehr starke, wachsende, wissensintensive Gründungen.
+

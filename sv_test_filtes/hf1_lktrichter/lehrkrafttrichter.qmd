@@ -1,0 +1,32 @@
+---
+title: "Der Lehrkräftetrichter"
+subtitle: "Wie viele potenzielle Lehrkräfte wir auf dem Weg in den Beruf verlieren"
+title-block-banner: false
+description: ''
+author: 
+  - Felix Süßenbach
+  - Andreas Wormland
+  - Bettina Jorzik
+image:  "preview.png"
+editor_options: 
+  chunk_output_type: console
+format: PrettyPDF-pdf
+---
+
++ Der Mangel an Lehrkräften heute und in den nächsten zehn Jahren hat gravierende Folgen für die Bildung junger Menschen und die Zukunftsfähigkeit unserer Gesellschaft.
++ Die erstmalige Darstellung des Ausbildungsverlaufs als Trichter zeigt: Die Zahl der Studierenden im Lehramt dünnt sehr schnell aus; ein Wechsel ins Lehramt zu späterem Zeitpunkt ist sehr schwierig; ohne Quer- und Seiteneinsteiger/-innen kann der Bedarf nicht gedeckt werden.
++ Wirksame Maßnahmen gegen den Lehrkräftemangel brauchen eine solide Datengrundlage insbesondere zur Lehrkräfteausbildung.
+
+**Rund 35.000 Lehrerinnen und Lehrer werden jährlich eingestellt.** Warum reichen über 50.000 Studienanfängerinnen und Studienanfänger im Lehramt eigentlich nicht aus, um diesen Bedarf zu decken? Neue Lehrkräfte anwerben, sie professionell ausbilden und für den Schuldienst gewinnen – mit diesen Herausforderungen sehen sich die Länder angesichts des Lehrkräftemangels konfrontiert.
+
+Nach Jahren des Anstiegs sank die Zahl der Studienanfängerinnen und Studienanfänger im Jahr 2023 erstmals. Selbst bei einer hundertprozentigen Erfolgsquote in der Ausbildung und Übergangsquote in den Beruf kann der derzeit prognostizierte Bedarf an Lehrkräften in einigen Unterrichtsfächern auch in den kommenden zehn Jahren nicht gedeckt werden.
+
+**Besonders akut ist der Lehrkräftemangel in den MINT-Bereichen.** Kann diese Versorgungslücke nicht geschlossen werden, droht Deutschland ein Bildungsnotstand, der schwerwiegende Folgen für unsere Zukunfts- und Wettbewerbsfähigkeit und unseren gesellschaftlichen Wohlstand hat. Wir müssen perspektivisch mehr Lehrkräfte gewinnen, diese professionell ausbilden und sie durch alle Phasen der Lehramtslaufbahn begleiten und weiterbilden, um sie auf die komplexen Anforderungen in Schulen bestmöglich vorzubereiten.
+
+Um die Ursachen des Lehrkräftemangels ergründen und bewältigen zu können, müssen zunächst verlässliche Aussagen über den Status quo in der Lehrkräfteausbildung getroffen werden: Wer studiert aus welchen Gründen (nicht) auf Lehramt und wer entscheidet sich aus welchen Gründen (nicht), die Lehramtslaufbahn fortzuführen und in den Schuldienst einzutreten? Bei der Beantwortung dieser Fragen ist eine große Forschungs- und Datenlücke zu konstatieren, die es zu füllen gilt, denn nur auf Basis belastbarer Befunde können bildungspolitische Maßnahmen ergriffen werden, die letztendlich einen Bildungsnotstand verhindern.
+
+:::{.column-body}
+![](lehrkraeftetrichter.jpg)
+:::
+
+
