@@ -54,10 +54,10 @@
       \ifx\author\@latex@warning@no@line
         % do nothing
       \else
-        \def\and{\unskip{ |}\space}%
+      \def\and{\\}
         \begin{minipage}[t]{10cm} % Setze die gewünschte Zeilenbreite hier ein
           \centering % Zentrierte Ausrichtung
-          \@author
+          {\normalsize{\color{sv_blue}\@author}} 
         \end{minipage}\par
       \fi
     \fi
@@ -82,8 +82,8 @@
 
 
 %
-\titleformat{\section}{\sffamily\huge\bfseries\color{sv_blue}}{\thesection}{1em}{}
-\titleformat{\subsection}{\sffamily\Large\bfseries\color{sv_blue}}{\thesubsection}{1em}{}
-\titleformat{\subsubsection}{\sffamily\large\bfseries\color{sv_blue}}{\thesubsubsection}{1em}{}
+\titleformat{\section}{\fontspec{Calibri}\huge\bfseries\color{sv_blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\fontspec{Calibri}\Large\bfseries\color{sv_blue}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\fontspec{Calibri}\large\bfseries\color{sv_blue}}{\thesubsubsection}{1em}{}
 
  

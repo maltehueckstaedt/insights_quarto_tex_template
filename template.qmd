@@ -5,21 +5,21 @@ author:
   - Eike Schröder
   - Felix Süßenbach
   - Malte Hückstädt
-  - Frank Kafka
+  - Frank Zander
   - Guido Baudach
-  - Malte Hückstädt
+  - Verona Poth
 format: Pretty_SV-pdf
 ---
 
-# ÜBER UNS
+# Headline 1
 
 sdkfjdkfj
 
-## GEMEINSAM WIRKEN
+## Headline 2
 
 Wir sind die Gemeinschaft engagierter Menschen, Unternehmen und Organisationen, die das Bildungs- und Wissenschaftssystem wirksam und zukunftsgerichtet gestaltet. So tragen wir als Stifterverband dazu bei, die Innovationskraft der Gesellschaft zu stärken.
 
-### Running Code
+### Headline 2
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
