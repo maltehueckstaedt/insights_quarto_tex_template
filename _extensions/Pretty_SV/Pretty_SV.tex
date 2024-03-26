@@ -6,6 +6,11 @@
 \usepackage{sectsty}
 \usepackage{fontspec}
 \usepackage{titlesec}
+\usepackage{graphicx} % Paket für das Einbinden von Grafiken
+\usepackage{lipsum}  
+\usepackage[most]{tcolorbox}
+\usepackage{fontawesome5} 
+ 
 
 
 %% Set page size with a wider right margin
@@ -18,12 +23,12 @@
 \definecolor{sv_blue}{HTML}{195365}
 \definecolor{light-blue}{HTML}{8d9ca9}
 \definecolor{sv_red}{HTML}{e73f0c}
-\definecolor{grey}{HTML}{b5bfc5}
+\definecolor{sv_grey}{HTML}{b5bfc5}
 \definecolor{light-grey}{HTML}{dae0e3}
 \definecolor{very-light-grey}{HTML}{f0f3f4}
 \definecolor{dark-grey}{HTML}{6A6F73}
 \definecolor{very-dark-grey}{HTML}{575757}
-
+\definecolor{sv_green}{HTML}{AFD700}
 
 %% Style the page number
 \fancypagestyle{mystyle}{
@@ -35,17 +40,28 @@
 \setlength{\footskip}{20pt}
 
 
-% left align title
-% left align title
+% ***************************************************************
+% ***************************************************************
+% Setze Titel und Untertitel
+% ***************************************************************
+% ***************************************************************
+
 \makeatletter
 \renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
 \begin{center}
-  {\fontspec{calibrib}[Path = {_extensions/Pretty_SV/Calibri/}]\color{sv_blue}\huge\textbf{\Huge\MakeUppercase{\@title}}} \vspace{0.3cm} \newline
-  {\Large {\color{sv_red}\@subtitle}} \vspace{0.3cm} \newline
+  {\fontspec{calibrib}[Path = {_extensions/Pretty_SV/Calibri/}]\color{sv_blue}\huge{\Huge\MakeUppercase{\@title}}} \\ \vspace{0.3cm}
+  {\Large {\color{sv_blue}\@subtitle}} \\ \vspace{0.3cm}
   {\color{soft-primary}Autor:in} \\
   \printauthors % Hier werden die Autoren gedruckt
 \end{center}\egroup
 }
+
+% ***************************************************************
+% ***************************************************************
+% Setze die genannten Authoren untereinander
+% ***************************************************************
+% ***************************************************************
+
 \newcommand{\printauthors}{%
   \ifdefined\author
     \ifx\author\@empty % check if author is empty
@@ -65,13 +81,11 @@
 }
 \makeatother
 
-\makeatother
-
-% Spezifiziere die OTF-Font
-%\setmainfont{BrandonText-Regular}
-
-%% Use some custom fonts
-
+% ***************************************************************
+% ***************************************************************
+% Setze Calibri als Mainfont
+% ***************************************************************
+% ***************************************************************
 
 \setmainfont[
   Path = _extensions/Pretty_SV/Calibri/,
@@ -80,10 +94,65 @@
   BoldItalicFont = calibrii.ttf
 ]{calibri.ttf}
 
+% ***************************************************************
+% ***************************************************************
+% Setze Farben und Schrifttyp
+% ***************************************************************
+% ***************************************************************
 
-%
-\titleformat{\section}{\fontspec{Calibri}\huge\bfseries\color{sv_blue}}{\thesection}{1em}{}
-\titleformat{\subsection}{\fontspec{Calibri}\Large\bfseries\color{sv_blue}}{\thesubsection}{1em}{}
-\titleformat{\subsubsection}{\fontspec{Calibri}\large\bfseries\color{sv_blue}}{\thesubsubsection}{1em}{}
+% Fließtext
+\renewcommand{\familydefault}{\sfdefault}  
+\color{sv_blue}  
 
+% Überschriften
+\titleformat{\section}{\fontspec{calibrib}[Path = {_extensions/Pretty_SV/Calibri/}]\huge\color{sv_blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\fontspec{calibrib}[Path = {_extensions/Pretty_SV/Calibri/}]\Large\color{sv_blue}}{\thesection}{1em}{}
+\titleformat{\subsubsection}{\fontspec{calibrib}[Path = {_extensions/Pretty_SV/Calibri/}]\large\color{sv_blue}}{\thesection}{1em}{}
+\titleformat{\paragraph}{\fontspec{calibrib}[Path = {_extensions/Pretty_SV/Calibri/}]\normalsize\color{sv_blue}}{\thesection}{1em}{}
+
+ 
+% ***************************************************************
+% ***************************************************************
+% Platziere Logo auf der ersten Seite eines Dokuments zentriert
+% ***************************************************************
+% ***************************************************************
+\AddToShipoutPicture*{%
+% Logo zentriert oben mit einer Größe von 2.5cm
+\AtPageUpperLeft{% 
+    % Feinjustierung der Position, um das Logo visuell zu zentrieren
+    \put(\LenToUnit{.5\dimexpr\paperwidth-2.7cm\relax},-3cm){% 
+        \color{sv_red}\includegraphics[width=2.5cm]{_extensions/Pretty_SV/svlog.png}
+      }%
+ }%
+}
+
+% ***************************************************************
+% ***************************************************************
+% Horizontale Line
+% ***************************************************************
+% ***************************************************************
+
+\let\OldRule\rule
+\renewcommand{\rule}[2]{\textcolor{sv_green}{\OldRule{\linewidth}{#2}}}
+
+% ***************************************************************
+% ***************************************************************
+% Callout Note
+% ***************************************************************
+% ***************************************************************
+
+\newtcolorbox{callout-note}{
+  colback=white,
+  colbacktitle=very-light-grey,
+  enhanced jigsaw, % better frame drawing
+  enforce breakable,         % breakable,
+  sharp corners, 
+  borderline west={2pt}{0pt}{sv_blue},
+  colframe=light-grey,
+  boxrule=.5pt, % Anpassung der Linienbreite hier
+  fonttitle=,
+  title={\color{sv_blue}\faInfoCircle\hspace{.1cm} Hinweis},
+  fontupper=\small, % Verkleinern auf kleinere Schriftgröße
+  coltext=sv_blue % Textfarbe auf Blau umstellen
+}
  

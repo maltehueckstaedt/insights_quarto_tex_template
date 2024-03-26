@@ -1,28 +1,52 @@
 ---
-title: "Vom Arbeiterkind zum Doktor"
-subtitle: "Der Hürdenlauf auf dem Bildungsweg der Erststudierenden"
+title: "Pretty SV"
+subtitle: "Template für das kompilieren von Quarto nach LaTex nach pdf"
+lang: de
 author: 
+  - Malte Hückstädt
   - Eike Schröder
   - Felix Süßenbach
-  - Malte Hückstädt
-  - Frank Zander
-  - Guido Baudach
-  - Verona Poth
+  - Bentley Schieckoff
 format: Pretty_SV-pdf
 ---
 
-# Headline 1
+# Quarto Elemente
 
-sdkfjdkfj
+## Fließtext
 
-## Headline 2
+\lipsum[2]
 
-Wir sind die Gemeinschaft engagierter Menschen, Unternehmen und Organisationen, die das Bildungs- und Wissenschaftssystem wirksam und zukunftsgerichtet gestaltet. So tragen wir als Stifterverband dazu bei, die Innovationskraft der Gesellschaft zu stärken.
+## Stichpunkte
 
-### Headline 2
+* Stichpunkt 1
+  * Stichpunkt 1.1
+    * Stichpunkt 1.1
+* Stichpunkt 2
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+## Tabellen
 
-```{r}
-1 + 1
+Tabellen können mit `KableExtra` erzeugt werden:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(tidyverse)
+library(kableExtra)
+kable(sample_n(iris,10),caption = "Tabellenname") %>%
+  kable_styling(latex_options = "HOLD_position")
 ```
+
+## Horizontale Linien
+
+Um Text oder andere Elemente zu trennen, können horizontale Linien mit '***' eingezogen werden:
+
+Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunt tristique,libero. Vivamus viverra fermentum felis. Donec nonummy pellentesque ante. Phasellusadipiscing semper elit.
+
+***
+
+Proin fermentum massa ac quam. Sed diam turpis, molestie vitae,placerat a, molestie nec, leo. 
+
+## Callout Note
+
+\begin{callout-note}
+\lipsum[2]
+\end{callout-note}
