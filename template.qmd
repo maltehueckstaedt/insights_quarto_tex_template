@@ -50,4 +50,3 @@ Proin fermentum massa ac quam. Sed diam turpis, molestie vitae,placerat a, moles
 \begin{callout-note}
 \lipsum[2]
 \end{callout-note}
-
